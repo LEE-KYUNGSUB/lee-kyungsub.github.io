@@ -44,7 +44,7 @@ description: 사용자가 "나의 홈페이지"라고 말할 때마다 반드시
 | 종류 | 확인된 내용 | 출처·링크 |
 |---|---|---|
 | 경험 | 리브가 푸드 시스템(주) 대표이사로 맛나감자탕을 경영합니다. 공식 연혁에 2002년 11월 개인식당 창업(천안 쌍용동)이 있습니다. | 맛나감자탕 공식 사이트 https://withmattna.com/mattna/brand.php?mt=brand (확인일 2026-10-15, 2026-11-11 주소 갱신: mattna.com 링크가 404라 withmattna.com으로 바꿈), https://withmattna.com/ |
-| 공인 | 현재 공부 중입니다. 자격·수료는 확인 전입니다. | https://www.kaci.ai.kr/ (공부 중인 곳의 공식 홈페이지) |
+| 공인 | 현재 공부 중입니다. 자격·수료는 확인 전입니다. | https://www.kaci.ai.kr/ (공부 중인 곳: 한국AI융합연구원(KACI). 홈페이지 링크 글자는 "한국AI융합연구원(KACI)"으로 씁니다. 대표 결정 2026-11-11) |
 | 타인의 목소리 | 한경BUSINESS 2026-04-28 기사(9년 연속 수상)와 2025-05-27 기사에 맛나감자탕과 이경섭 대표의 발언이 실렸습니다. 같은 매체 2024-04-23, 2019-02-19 기사와 데일리그리드 2018-03-29 인터뷰도 있습니다. | https://magazine.hankyung.com/business/article/202604203141b · https://magazine.hankyung.com/business/article/202505191310b · .../202404227053b · .../202102185571b · https://www.dailygrid.net/news/articleView.html?idxno=72859 |
 | 기록 | 맛나감자탕 공식 연혁(1998~2021). 네이버 블로그는 쓰지 않습니다(대표 결정 2026-10-31). | https://withmattna.com/mattna/brand3.php?mt=brand |
 
@@ -160,7 +160,7 @@ HTML 파일 하나로 원페이지를 만들 때 따르는 규칙입니다. 현�
 
 **구조화 데이터 (JSON-LD)**
 - FAQPage: 질문 5개. 화면에 보이는 FAQ 문구와 한 글자도 다르지 않게 같은 문구를 씁니다.
-- Person: 이름은 "이경섭 대표" 표기를 따릅니다. `sameAs`에는 확인된 본인 채널 링크만 넣습니다. 지금은 `https://withmattna.com/`, `https://leekyungsub.com/`입니다. 네이버 블로그는 뺐습니다. 확인되지 않은 링크는 넣지 않습니다. `kaci.ai.kr`(공부 중인 곳의 홈페이지)은 본인 채널이 아니므로 `sameAs`에 넣지 않습니다. 이메일 주소도 넣지 않습니다.
+- Person: 이름은 "이경섭 대표" 표기를 따릅니다. `sameAs`에는 확인된 본인 채널 링크만 넣습니다. 지금은 `https://withmattna.com/`, `https://leekyungsub.com/`입니다. 네이버 블로그는 뺐습니다. 확인되지 않은 링크는 넣지 않습니다. `kaci.ai.kr`(공부 중인 곳, 한국AI융합연구원(KACI)의 홈페이지)은 본인 채널이 아니므로 `sameAs`에 넣지 않습니다. 이메일 주소도 넣지 않습니다.
 - 구조화 데이터에도 확인되지 않은 경력·수치·후기를 넣지 않습니다.
 
 **FAQ 작성 (방문자: 외식업에 종사하시는 분들)**

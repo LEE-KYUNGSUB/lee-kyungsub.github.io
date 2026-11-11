@@ -1,0 +1,6 @@
+# 내부 작업 문서는 홈페이지에 공개하지 않습니다.
+exclude:
+  - CLAUDE.md
+  - DESIGN.md
+  - SKILL.md
+  - .claude

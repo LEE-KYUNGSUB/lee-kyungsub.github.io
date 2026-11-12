@@ -1,3 +1,36 @@
 # Netlify 설정: 빌드 없이 이 폴더를 그대로 공개합니다.
+# (_config.yml이 있어도 Jekyll 빌드를 하지 않습니다.)
 [build]
   publish = "."
+  command = "echo 'no build'"
+
+# 내부 작업 문서는 공개하지 않습니다. (GitHub Pages는 _config.yml의 exclude로 같은 일을 합니다.)
+[[redirects]]
+  from = "/SKILL.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/DESIGN.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/CLAUDE.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/_config.yml"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/.claude/*"
+  to = "/404.html"
+  status = 404
+  force = true

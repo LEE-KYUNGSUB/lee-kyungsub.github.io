@@ -266,7 +266,7 @@ FAQPage JSON-LD (위 문구 그대로)
 - 주소 태그: `canonical`, `og:url`, `og:image`(`https://lee-kyungsub.com/og-image.png`)는 모두 `lee-kyungsub.com` 기준입니다. 주소를 바꾸면 세 곳을 함께 고칩니다.
 - 도메인: `lee-kyungsub.com`(하이픈 있음)은 Cloudflare에서 2026-11-09에 구입했습니다. 하이픈 없는 `leekyungsub.com`은 기존 사이트이고 별개이므로 DNS를 섞지 않습니다. 이 저장소의 `CNAME` 파일은 지우지 않습니다.
 - DNS(Cloudflare, `lee-kyungsub.com`): A 레코드 4개(`@` → 185.199.108.153 / .109.153 / .110.153 / .111.153)와 `www` CNAME → `lee-kyungsub.github.io`. 프록시는 반드시 **DNS 전용**(회색 구름)입니다. 주황색이면 GitHub가 HTTPS 인증서를 만들지 못합니다. GitHub Pages의 HTTPS 강제는 켜 두었습니다.
-- 지우지 않는 파일: `index.html`의 네이버 소유확인 메타 태그 2개(`243fa136…`, `54aee02d…`), 구글 서치콘솔 확인 파일 `googleba891309ef94bf09.html`, `robots.txt`, `sitemap.xml`, `favicon.svg`, `og-image.png`.
+- 지우지 않는 파일: `index.html`의 네이버 소유확인 메타 태그 2개(`243fa136…`, `54aee02d…`), 구글 서치콘솔 확인 파일 `googleba891309ef94bf09.html`, `robots.txt`, `sitemap.xml`, `llms.txt`(생성형AI용 안내 파일, 홈페이지 내용이 바뀌면 함께 고침), `favicon.svg`, `og-image.png`.
 - 검색 등록: 네이버 서치어드바이저에 `https://lee-kyungsub.com`과 `https://lee-kyungsub.github.io` 소유확인 완료(대표 화면 확인 2026-11-12). 사이트맵(`https://lee-kyungsub.com/sitemap.xml`)은 제출 목록에 `sitemap.xml`이 2026-11-11 12:26에 등록되어 있습니다(대표 화면 확인 2026-11-12). 제출은 대표가 직접 하고, 수집 결과(성공·오류)는 아직 확인 전입니다.
 - 카카오톡 공유 카드: 이미지·제목·설명·주소가 나오는 것을 대표가 확인했습니다(2026-11-12). 이미지를 바꾼 뒤 예전 그림이 보이면 카카오 공유 디버거에서 주소를 초기화합니다.
 - 내부 문서(`SKILL.md`, `DESIGN.md`, `CLAUDE.md`, `.claude`)는 공개하지 않습니다. GitHub Pages는 `_config.yml`의 `exclude`로, Netlify는 `netlify.toml`의 404 규칙으로 막습니다. 이 두 파일은 지우지 않습니다.

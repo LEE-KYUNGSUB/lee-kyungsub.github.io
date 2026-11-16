@@ -57,3 +57,14 @@ footer { padding: 24px 0 40px; }
   .issues li { grid-template-columns: 1fr; gap: 4px; }
 }
 @media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
+/* 뉴스 브리핑 (news-briefing 스킬 형식, 2026-11-17 추가) */
+.digest { list-style: none; padding: 0; margin: 24px 0 0; counter-reset: d; border-top: 1px solid var(--ink); }
+.digest li { counter-increment: d; display: grid; grid-template-columns: 32px 1fr; gap: 8px; padding: 12px 0; border-bottom: 1px solid var(--ink); }
+.digest li::before { content: counter(d); font-family: var(--font-head); font-size: 20px; line-height: 1.5; }
+.digest .head { font-family: var(--font-head); font-size: 19px; line-height: 1.5; display: block; }
+.digest .sub { display: block; font-size: 15px; line-height: 1.7; }
+.brief { list-style: none; padding: 0; margin: 0 0 12px; }
+.brief li { display: grid; grid-template-columns: 52px 1fr; gap: 8px; padding: 8px 0; border-top: 1px solid var(--ink); font-size: 16px; line-height: 1.7; }
+.brief li:last-child { border-bottom: 1px solid var(--ink); }
+.brief b { font-weight: 500; }
+.byline { font-size: 14px; margin: 0 0 16px; }
